@@ -1,0 +1,270 @@
+* {
+    font-family: Poppins;
+    margin: 0px;
+    max-height: 100%;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+h2 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+header {
+    background: url(../images/background.png);
+    height: 75vh;
+    width: 100vw;
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header .content {
+    height: 100%;
+    background-color: #00000075;
+}
+
+header * {
+    display: block;
+    margin: auto;
+}
+
+header .content .logo {
+    height: 75% !important;
+}
+
+.manage {
+    padding: 75px 0px;
+    background-color: #fff;
+}
+
+.manage h2 {
+    width: 80%;
+    margin: auto;
+}
+
+.manage ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.manage ul li {
+    display: inline;
+    font-weight: 700;
+    display: flex;
+    border-right: 2px #F9A826 solid;
+    box-sizing: border-box;
+    margin: 0px 20px;
+}
+
+.manage ul li:last-child {
+    border-right: none !important;
+}
+
+.manage ul li .icon {
+    height: 80px;
+    width: 80px;
+}
+
+.description {
+    padding: 0px 10px;
+}
+
+.description p {
+    font-size: 0.75rem;
+}
+
+.download {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin: 75px 0px;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.card {
+    width: 85%;
+    height: fit-content;
+    padding: 25px 0px;
+    background-color: #fff;
+    box-shadow: 0px 0px 30px rgb(0 0 0 / 25%);
+    justify-self: center;
+    margin-right: 10px;
+}
+
+.card h3 {
+    color: #F9A826;
+    width: 80%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+.card p {
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.card p.item {
+    text-align: left;
+    margin-top: 0px;
+    margin: auto;
+    width: 70%;
+}
+
+.card p.danger {
+    color: red;
+    font-size: 0.75rem;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.button {
+    margin: auto;
+    display: block;
+    width: 290px;
+    height: 40px;
+    padding: 10px;
+    margin-top: 50px;
+    border: none;
+    background-color: #F9A826;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button img {
+    width: 48px;
+}
+
+.whois {
+    background-color: #F5F5F5;
+    padding: 75px 0px;
+}
+
+.whois>p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.employers {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    width: 100%;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    background-color: #fff;
+    padding: 10px 0px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+    margin-top: 80px;
+    box-sizing: border-box;
+}
+
+.photo {
+    width: 140px;
+    border-radius: 100%;
+    background-color: #F9A826;
+    height: 140px;
+    padding: 10px;
+    display: grid;
+}
+
+.photo img {
+    justify-self: center;
+    align-self: center;
+}
+
+.profile-card p {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+}
+
+p.tag {
+    margin-top: 10px;
+    color: #929292;
+}
+
+footer {
+    background-color: #fff;
+    padding: 75px 0px;
+    position: relative;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    align-content: center;
+    justify-content: center;
+}
+
+.col {
+    justify-content: center;
+    align-content: center;
+    display: grid;
+}
+
+.col img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+}
+
+footer a {
+    color: #1E1E1E;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer li::before {
+    color: #F9A826;
+    content: "\2022";
+    font-weight: bold;
+    display: inline-block;
+    width: 0.5em;
+    font-size: 2em;
+    margin-left: -1em;
+    align-self: center;
+    justify-self: center;
+}
+
+footer>p {
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.two {
+    grid-column: 2;
+}
+
+.three {
+    grid-column: 3;
+}
