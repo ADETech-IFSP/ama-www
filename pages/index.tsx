@@ -170,7 +170,7 @@ export default function Home() {
                       Links
                       <ul>
                           <li><a target="_blank" href="https://adesource.wordpress.com">Blog ADESource</a></li>
-                          <li><a target="_blank" href="github.com/adETech-IFSP">GitHub ADETech</a></li>
+                          <li><a target="_blank" href="https://github.com/ADETech-IFSP">GitHub ADETech</a></li>
                           <li><a target="_blank" href="https://www.youtube.com/channel/UCpm6X6-GkXFyRDjevkJdDlw">YouTuber ADETech</a></li>
                       </ul>
                   </h3>
