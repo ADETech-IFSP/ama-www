@@ -11,6 +11,22 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap" rel="stylesheet"/>
         <link rel="stylesheet" href="css/styles.css"/>
+
+        <meta name="title" content="Ame Mais Animais - Home"/>
+        <meta name="description" content="Cuide melhor de seus bichinhos de estimação. Um app incrível e completo para gestão e cuidados."/>
+
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://www.amemais.tech/"/>
+        <meta property="og:title" content="Ame Mais Animais - Home"/>
+        <meta property="og:description" content="Cuide melhor de seus bichinhos de estimação. Um app incrível e completo para gestão e cuidados."/>
+        <meta property="og:image" content="https://www.amemais.tech/images/background.png"/>
+
+        <meta property="twitter:card" content="summary_large_image"/>
+        <meta property="twitter:url" content="https://www.amemais.tech/"/>
+        <meta property="twitter:title" content="Ame Mais Animais - Home"/>
+        <meta property="twitter:description" content="Cuide melhor de seus bichinhos de estimação. Um app incrível e completo para gestão e cuidados."/>
+        <meta property="twitter:image" content="https://www.amemais.tech/images/background.png" />
+
         <title>Ame Mais Animais - Home</title>
       </Head>
 
