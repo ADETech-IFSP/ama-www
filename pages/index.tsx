@@ -100,7 +100,10 @@ export default function Home() {
               </p>
 
               <div className="button">
-                  <img src="images/icon/download.png" alt="DOWNLOAD" /> DOWNLOAD
+                  <a href="https://drive.google.com/file/d/154MlQNEM_N3ngAWUlHUM15WS55hHtWYK/view?usp=sharing">
+                    <img src="images/icon/download.png" alt="DOWNLOAD" /> DOWNLOAD
+                  </a>
+                  
               </div>
 
           </div>
