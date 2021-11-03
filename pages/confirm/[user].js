@@ -1,6 +1,6 @@
 import { useRouter } from "next/router"
 
-export default function confirm() {
+export async function getStaticProps(context) {
     const router = useRouter();
     const { id, code } = router.query;
 
@@ -14,22 +14,35 @@ export default function confirm() {
             id,
             confirm_code: code
         })
-    });
+    })
 
     const response = await request.json();
 
-    if(response.status === 'success') {
-        return(
+    return {
+        props: { status: response.status }, // will be passed to the page component as props
+    }
+}
+
+export const getStaticPaths = async () => {
+
+    return {
+        paths: [], //indicates that no page needs be created at build time
+        fallback: true //indicates the type of fallback
+    }
+}
+
+export default function confirm({ status }) {
+    if (status === 'success') {
+        return (
             <div>
                 <h1>A conta foi ativada com sucesso.</h1>
             </div>
         )
     }
 
-    return(
+    return (
         <div>
             <h1>A conta não foi ativada.</h1>
         </div>
     )
-
 }
