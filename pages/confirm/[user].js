@@ -3,7 +3,7 @@ import { useRouter } from "next/router"
 export async function getStaticProps(context) {
     const router = useRouter();
     const { id, code } = router.query;
-
+    console.log(router.query)
     const request = await fetch(`https://api.amemais.tech/user/account/confirm`, {
         method: 'POST',
         headers: {
@@ -27,7 +27,7 @@ export const getStaticPaths = async () => {
 
     return {
         paths: [], //indicates that no page needs be created at build time
-        fallback: true //indicates the type of fallback
+        fallback: 'blocking' //indicates the type of fallback
     }
 }
 
