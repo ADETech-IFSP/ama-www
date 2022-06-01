@@ -147,8 +147,18 @@ header .content .logo {
     cursor: pointer;
 }
 
+.button a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    gap: 10px;
+}
+
 .button img {
-    width: 48px;
+    height: 100%;
 }
 
 .whois {
